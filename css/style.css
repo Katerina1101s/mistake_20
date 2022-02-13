@@ -1,0 +1,435 @@
+@import url(null.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+.wrapper{
+   display: block;
+   height: 100%;
+}
+
+.body-1{
+   background-color: rgba(240, 193, 230, 0.966);
+   line-height: 1.6;
+   font-size: 16px;
+   text-align: center;
+}
+
+.list .item{
+   display: inline-block;
+   padding: 10px 60px;
+   font-family: "Kurale";
+   font-weight: 400;
+   font-style: normal;
+}
+.special{
+   background-color: whitesmoke;
+}
+
+h1{
+font-family: "Julius Sans One";
+font-weight: 400;
+font-style: normal;
+font-size: 40px;
+padding-top: 30px;
+padding-bottom: 50px;
+}
+
+.section-1{
+   font-family: "Pontano Sans";
+   font-weight: 400;
+   font-style: normal;
+   font-size: 18px;
+   color: rgb(110, 110, 110);
+}
+
+.section-2{
+   font-family: "Pontano Sans";
+   font-weight: 400;
+   font-style: normal;
+   font-size: 30px;
+   color: rgb(110, 110, 110);
+}
+
+img{
+   width: 400px;
+   margin: 20px 40px 20px 30px;
+}
+
+.section-3{
+   font-family: "Source Serif 4";
+   font-style: normal;
+   font-weight: 200;
+   margin: 20px;
+   color: rgb(185, 0, 124);
+   outline: 2px dotted lavenderblush;
+}
+
+
+.list-2 .item-2{
+   font-family: "Playfair Display";
+   font-weight: 400;
+   font-style: italic;
+}
+
+.item-2{
+   background: url("../image/188698.svg.png") -2px 1px / 20px no-repeat;
+   text-align: left;
+   padding: 0px 0px 0px 25px;
+   margin: 20px 500px;
+}
+
+.sub-item-2{
+   font-family: "Playfair Display";
+   font-weight: 400;
+   font-style: italic;
+   background: url(../image/ring.svg.png) 0 0 / 20px no-repeat;
+   text-align: left;
+   padding-left: 25px;
+   margin-left: 600px;
+}
+
+.circle{
+   max-height: 500px;
+}
+.circle-1{
+   background: rgb(254,255,207);
+   background: linear-gradient(261deg, rgba(254,255,207,0.29735644257703087) 10%, rgba(244,245,4,1) 50%);
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   overflow: hidden;
+   display: inline-block;
+   margin: 30px 40px 30px auto;
+}
+.circle-2{
+   background: rgb(148,187,233);
+   background: radial-gradient(circle, rgba(148,187,233,1) 0%, rgba(249,236,242,1) 100%);
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   overflow: hidden;
+   display: inline-block;
+   margin: 30px 40px 30px auto;
+}
+.circle-3{
+   background: rgb(255,255,255);
+   background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(235,29,253,1) 100%);
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   overflow: hidden;
+   display: inline-block;
+   margin: 30px 40px 30px auto;
+}
+.circle-4{
+   background: rgb(255,255,255);
+   background: linear-gradient(49deg, rgba(255,255,255,1) 0%, rgba(252,11,145,0.11388305322128855) 0%, rgba(255,255,255,1) 61%);
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   overflow: hidden;
+   display: inline-block;
+   margin: 30px 40px 30px auto;
+}
+
+.circle-5{
+   background: rgb(0,255,64);
+   background: radial-gradient(circle, rgba(0,255,64,1) 36%, rgba(255,255,255,1) 40%, rgba(11,252,104,0.11388305322128855) 100%);
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   overflow: hidden;
+   display: inline-block;
+   margin: 30px 40px 30px auto;
+}
+
+.square{
+   max-height: 1000px;
+}
+
+.square-1{
+   background-image: url(../image/pronoviasbritt-mgmt-26768521a9054378b6dee2cae47bc9dc.jpeg);
+   background-position: 9% top;
+   width: 350px;
+   height: 400px;
+   display: inline-block;
+}
+.square-2{
+   background-image: url(../image/pronoviasbritt-mgmt-26768521a9054378b6dee2cae47bc9dc.jpeg);
+   background-position: right top;
+   width: 350px;
+   height: 400px;
+   display: inline-block;
+}
+
+.square-3{
+   background-image: url(../image/pronoviasbritt-mgmt-26768521a9054378b6dee2cae47bc9dc.jpeg);
+   background-position: left bottom;
+   width: 350px;
+   height: 300px;
+   display: inline-block;
+}
+.square-4{
+   background-image: url(../image/pronoviasbritt-mgmt-26768521a9054378b6dee2cae47bc9dc.jpeg);
+   background-position: right bottom;
+   width: 350px;
+   height: 300px;
+   display: inline-block;
+}
+
+
+
+.over-section-4{
+   background: url(../image/peopnies.svg.jpeg) 00 / cover no-repeat;
+   background-position: top;
+   max-height: 1000px;
+}
+.section-4{
+   font-family: "Source Serif 4";
+   font-style: normal;
+   font-weight: 200;
+   padding-top: 450px;
+   padding-left: 400px;
+   padding-right: 400px;
+}
+
+.section-4-1{
+   color: rgb(73, 3, 51);
+   font-family: serif;
+   text-decoration: underline;
+}
+.over-section-5{
+   background: url(../image/fabric.svg.jpeg);
+   background-repeat: repeat-y;
+   background-position: left;
+   background-size: 100px;
+   padding: 30px;
+   max-height: 470px;
+
+}
+.section-5{
+   font-family: "Source Code Pro";
+   font-weight: 600;
+   font-style: normal;
+   padding-left: 70px;
+   padding-bottom: 20px;
+}
+.section-5-subitem{
+   background: url(../image/love.png) no-repeat;
+   background-position:left;
+   background-size: 20px;
+   margin-left: 80px;
+   text-align: left;
+   padding-left: 30px;
+}
+
+.oversection-6{
+   background: rgb(255,0,118);
+   background: radial-gradient(circle, rgba(255,0,118,1) 0%, rgba(241,178,240,1) 94%);
+   border: 5px double white;
+   margin-top: 30px;
+   font-size: 20px;
+   margin-bottom: 20px;
+}
+
+.section-6-item-1{
+   background: rgba(245, 245, 245, 0.808);
+   border-radius: 40px;
+   margin-bottom: 20px;
+}
+.section-6-item-2{
+   background-color: snow;
+   border-radius: 40px;
+   margin-bottom: 20px;
+}
+.section-6-item-3{
+   background-color: beige;
+   border-radius: 40px;
+   margin-bottom: 20px;
+}
+.section-6-item-4{
+   background-color: rgba(223, 241, 243, 0.877);
+   border-radius: 40px;
+   margin-bottom: 20px;
+}
+.section-6-item-5{
+   background-color: ivory;
+   border-radius: 40px;
+   margin-bottom: 20px;
+}
+.section-6-item-6{
+   background-color: rgb(240, 200, 185);
+   border-radius: 40px;
+   margin-bottom: 20px;
+}
+.section-6-item-7{
+   background-color: rgba(231, 194, 151, 0.973);
+   border-radius: 40px;
+   margin-bottom: 20px;
+}
+.section-6-item-8{
+   background-color: rgb(243, 226, 151);
+   border-radius: 40px;
+   margin-bottom: 20px;
+}
+
+.experiment{
+   background: url(../image/shapes.jpeg) center bottom no-repeat , url(../image/ceremony.jpeg) 0 0 / 1500px no-repeat fixed;
+   min-width: 300px;
+   min-height: 1000px;
+   background-attachment: fixed;
+   border-radius: 40%;
+   font-family: "Source Code Pro";
+   font-weight: 600;
+   padding: 250px;
+   color: bisque;
+   text-shadow: 10px 10px 10px rgb(255, 252, 252);
+}
+
+.comfort{
+   border-radius: 60%;
+   overflow: scroll;
+   padding: 90px;
+   text-indent: 30px;
+   max-height: 300px;
+   font-family: "Playfair Display";
+   font-weight: 400;
+   font-style: italic;
+   margin-top: 40px;
+   color: rgb(98, 237, 241);
+   text-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+
+
+
+
+
+/* ========== maket ========= */
+
+
+.body-2{
+   max-width: 810px;
+   margin: 0px auto;
+   font-family: "Lato";
+   font-weight: 400;
+   font-style: normal;
+   color: #424551;
+   font-size: 16px;
+   line-height: 1.6;
+}
+
+.header-2{
+   font-family: "Lato";
+   font-weight: 900;
+   font-style: normal;
+   font-size: 46px;
+   line-height: 1.3;
+   color:#1E212C;
+}
+
+.second-subtitle-1, 
+.second-subtitle-2{
+   font-size: 16px;
+   line-height: 1.6;
+   color: #787A80;
+   display: inline-block;
+}
+
+.second-subtitle-1{
+   background: url(../image/Calendar.svg) 0 0 / 20px no-repeat;
+   padding: 0px 0px 0px 25px;
+   color: #787A80;
+   margin: 26px 24px 40px 8px;
+}
+
+.second-subtitle-2{
+   background: url(../image/Clock.svg) 0 0 / 20px no-repeat;
+   padding: 0px 0px 0px 25px;
+   color: #787A80;
+}
+
+.laptop{
+   width: 800px;
+   height: 360px;
+}
+
+.text-1{
+   font-family: "Lato";
+   font-weight: 700;
+   font-style: normal;
+   font-size: 20px;
+   line-height: 1.5;
+   color: #1E212C;
+   margin: 60px 0px 24px;
+}
+
+
+.text-2{
+   margin-bottom: 20px;
+}
+
+.text-4{
+   font-family: "Lato";
+   font-weight: 700;
+   font-style: normal;
+   font-size: 20px;
+   line-height: 1.5;
+   margin: 48px 0px;
+   background: url(../image/braces.svg) 0 0 / 20px no-repeat;
+   padding: 0px 0px 0px 30px;
+}
+
+.text-5{
+   margin: 48px 0px 24px;
+}
+
+.line{
+   background: url(../image/check.svg) 00 no-repeat;
+   padding-left: 25px;
+   margin-bottom: 24px;
+}
+
+
+.who{
+   font-family: "Lato";
+   font-weight: 700;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 1.5;
+   margin-top: 50px;
+   color: #1E212C;
+}
+
+.why{
+   font-family: "Lato";
+   font-weight: 900;
+   font-style: normal;
+   font-size: 46px;
+   line-height: 1.3;
+   color: #1E212C;
+   margin: 8px auto 40px;
+}
+
+.idea{
+   background: url(../image/check.svg) 00 no-repeat;
+   padding-left: 30px;
+}
+
+.button{
+   background:linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+   max-width: 161px;
+   font-family: "Lato";
+   font-weight: 700;
+   font-style: normal;
+   font-size: 14px;
+   line-height: 3.1;
+   text-align: center;
+   color: #FFFFFF;
+   margin-top: 22px;
+}
